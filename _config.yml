@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Bidur Khanal"
   avatar           : "profile.jpg"
-  bio              : "Research Assistant @NAAMII, Machine Learning, Computer Vision, Data Analysis"
+  bio              : "Research Assistant @NAAMII, Interested in Machine Learning, Computer Vision, Data Analysis"
   location         : "Kathmandu, Nepal"
   employer         :
   pubmed           : 
@@ -200,7 +200,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -234,7 +234,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
