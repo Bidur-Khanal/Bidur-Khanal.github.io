@@ -9,4 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Download the CV [here]('/files/Bidur Khanal short CV (For University).pdf'){: .btn .btn--success}
+{: .notice--success}
+
+
 
