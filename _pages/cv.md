@@ -7,9 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-Download the CV [here]('/files/Bidur Khanal short CV (For University).pdf'){: .btn .btn--success}
+Download the CV [here](/files/cv.pdf){: .btn .btn--success}
 {: .notice--success}
 
 
