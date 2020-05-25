@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Conferences/Workshops"
-permalink: /conferences/
+permalink: /_pages/conferences/
 author_profile: true
 ---
 
