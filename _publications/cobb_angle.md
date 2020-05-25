@@ -24,6 +24,6 @@ a SMAPE score of 25.69 on the challenge test set.
 In MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop on Computational Methods and Clinical Applications for Spine Imaging.
 
 
-[Download paper here](http://academicpages.github.io/files/MICCAI_Workshop_Paper.pdf)
+[Download paper here](http://bidur-khanal.github.io/files/MICCAI_Workshop_Paper.pdf)
 
 
