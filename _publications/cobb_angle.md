@@ -5,7 +5,7 @@ permalink: /publication/cobb_angle
 excerpt: '**Bidur Khanal**, Lavsen Dahal, Prashant Adhikari, Bishesh Khanal.**Automatic Cobb Angle Detection using Vertebra Detector and Vertebra Corners Regression**. 
 *In MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop on Computational Methods and Clinical Applications for Spine Imaging* [ Oral Presentation]'
 date: 2020-02-01
-venue: 'MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop on Computational Methods and Clinical Applications for Spine Imaging'
+venue: 'Computational Methods and Clinical Applications for Spine Imaging'
 ---
 Abstract: Correct evaluation and treatment of Scoliosis require accu-
 rate estimation of spinal curvature. Current gold standard is to manually
@@ -21,9 +21,9 @@ sessed in AASCE MICCAI challenge 2019 which showed a promise with
 a SMAPE score of 25.69 on the challenge test set.
 
 **Bidur Khanal**, Lavsen Dahal, Prashant Adhikari, Bishesh Khanal.**Automatic Cobb Angle Detection using Vertebra Detector and Vertebra Corners Regression**. 
-In MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop on Computational Methods and Clinical Applications for Spine Imaging
+In MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop on Computational Methods and Clinical Applications for Spine Imaging.
 
 
-[Download paper here](http://academicpages.github.io/files/MICCAI Workshop Paper.pdf)
+[Download paper here](http://academicpages.github.io/files/MICCAI_Workshop_Paper.pdf)
 
 
