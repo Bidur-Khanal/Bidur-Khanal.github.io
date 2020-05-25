@@ -5,8 +5,8 @@ permalink: /conferences/
 author_profile: true
 ---
 
-## Presentation 
-======
+## Presentation ##
+
 - Paper Presentation. **Automatic Cobb Angle Detection using Vertebra Detector and Vertebra Corners Regression**.
   *In MICCAI 2019 Challenge on Accurate Automated Spinal Curvature Estimation & Workshop 
   on Computational Methods and Clinical Applications for Spine Imaging*. Shenzhen, China, October 17, 2019.
@@ -16,8 +16,7 @@ author_profile: true
 
  
   
-## Workshops/Schools 
-======  
+## Workshops/Schools ##
 
 - Winter School 2018, Dec 20-30, 2018.
   * First Nepal Winter School in AI Organised by: NAAMII, (Participant)
@@ -30,8 +29,8 @@ author_profile: true
        Medical Imaging.
 
    
-## Teaching Lab Assistant
-======
+## Teaching Lab Assistant ##
+
 Second Nepal Winter School in AI, Dec 10-20, 2019.
 
  * Prepared Lab assignments of Pytorch Tutorial on Deep Learning (with Dr. Danda Pani Paudel)
