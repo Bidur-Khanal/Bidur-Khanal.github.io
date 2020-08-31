@@ -79,9 +79,11 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
-    
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+	if len(str(item.pub_date)) > 5:
+		md += "\ndate: " + str(item.pub_date) 
+	
+	if len(str(item.venue)) > 5:
+		md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
