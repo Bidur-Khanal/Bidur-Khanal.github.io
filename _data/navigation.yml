@@ -3,13 +3,14 @@ main:
   - title: "Publications"
     url: /publications/
     
+  - title: "Project"
+    url: /pages/project.md
+    
   - title: "Conferences and Workshops"
     url: /conferences/
     
   - title: "CV"
     url: /files/cv.pdf
     
-  - title: "Project"
-    url: /project/
-    
+  
   
