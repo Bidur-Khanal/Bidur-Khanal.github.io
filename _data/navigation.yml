@@ -9,4 +9,7 @@ main:
   - title: "CV"
     url: /files/cv.pdf
     
+  - title: "Project"
+    url: /project/
+    
   

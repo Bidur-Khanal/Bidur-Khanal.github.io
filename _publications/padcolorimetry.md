@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/padcolorimetry
 excerpt: '**Bidur Khanal**, Pravin Pokhrel, Bishesh Khanal, Basant Giri. **Colorimetric Pesticide Residue Analysis on Paper Analytical Device using Machine Learning**. *In preparation to be submitted to Nature Scientific Reports. Manuscript is Under Revision for Submissison*'
 date: 2020-08-1
-venue: Not submitted
+venue: ': Not submitted Yet'
 ---
 
 **Bidur Khanal**, Pravin Pokhrel, Bishesh Khanal, Basant Giri. **Colorimetric Pesticide Residue Analysis on Paper Analytical Device using Machine Learning**.
