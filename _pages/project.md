@@ -7,7 +7,7 @@ author_profile: true
 
 ## 1. Conditional GAN with Additive Angular Margin Loss in Discriminator(On Going Research) ##
 
-<img src="/images/AAM-GAN.png" width="500" height="500"/>
+<img src="/images/AAM-GAN.png" width="800" height="800"/>
 
 We have introduced an additive angular margin loss in the classification head of discriminator. 
 This loss penalizes the discriminator while predicting the class label. In result, the generator learns to produce images with preserved class features   
