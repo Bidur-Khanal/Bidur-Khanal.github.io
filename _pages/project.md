@@ -5,7 +5,7 @@ permalink: /project/
 author_profile: true
 ---
 
-## Conditional GAN with Additive Angular Margin Loss in Discriminator(On Going Research) ##
+## 1. Conditional GAN with Additive Angular Margin Loss in Discriminator(On Going Research) ##
 
 <img src="/images/AAM-GAN.png" width="500" height="500"/>
 
@@ -16,7 +16,7 @@ We are performing additional experiments. Our aim is to target CVPR 2021 with th
 
 Supervisors: Dr. Binod Bhattarai, Dr. Bishesh Khanal and Dr. Danda Pani Poudel
 
-## Spine Curvature Estimation from X-ray Images  ##
+## 2. Spine Curvature Estimation from X-ray Images  ##
 
 <img src="/images/spine.png" width="500" height="500"/>
 
@@ -30,7 +30,7 @@ Supervisor: Dr. Bishesh Khanal
   
 
 
-## Estimating Pesticide Concentration with Smartphone  ##
+## 3. Estimating Pesticide Concentration with Smartphone  ##
 
 <img src="/images/pesticide.png" width="500" height="500"/>
 
@@ -40,7 +40,7 @@ We are revising the paper of this work for submission.
 
 Supervisors: Dr. Bishesh Khanal and Dr. Basant Giri
 
-## Synthetic to Real Domain Translation Using Conditional GAN  ##
+## 4. Synthetic to Real Domain Translation Using Conditional GAN  ##
 
 <img src="/images/gan.png" width="500" height="500"/>
 
