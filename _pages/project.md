@@ -16,6 +16,7 @@ We are performing additional experiments. Our aim is to target CVPR 2021 with th
 
 Supervisors: Dr. Binod Bhattarai, Dr. Bishesh Khanal and Dr. Danda Pani Poudel
 
+
 ## 2. Spine Curvature Estimation from X-ray Images  ##
 
 <img src="/images/spine.png" width="700" height="700"/>
@@ -29,16 +30,16 @@ With this work, we participated in **Accurate Automated Spinal Curvature Estimat
 Supervisor: Dr. Bishesh Khanal
   
 
-
 ## 3. Estimating Pesticide Concentration with Smartphone  ##
 
-<img src="/images/pesticide.png" width="700" height="700"/>
+<img src="/images/pesticide.png" width="800" height="800"/>
 
 - Prepared a new Image dataset for Food Dye and Pesticide assays to study the smartphone based colorimetric detection using data-driven machine learning approach.
 - Accessed machine learning models (SVM, Logistic Regression, Random Forest and ANN) in classifying pesticide concentration labels based on its residue color strength.
 We are revising the paper of this work for submission.
 
 Supervisors: Dr. Bishesh Khanal and Dr. Basant Giri
+
 
 ## 4. Synthetic to Real Domain Translation Using Conditional GAN  ##
 
