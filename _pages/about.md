@@ -9,8 +9,7 @@ redirect_from:
 ---
 
 I’m currently 1st Year PhD Student at Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology. 
-My research interests include machine learning, deep learning, and computer vision.
-I am interested in working in computer vision problems related to domain adaptation, self-supervised learning, and graph convolutional networks.
+In general, my research interests include machine learning, deep learning, and computer vision. To be specific, I am interested to work in computer vision problems related to domain adaptation, self-supervised learning, and graph convolutional networks.
 
 Before starting my Phd, I worked as a Research Assistant at [NepAl Applied Mathematics and Informatics Institute for Research (NAAMII)](https://www.naamii.com.np/), 
 under the co-supervision of [Dr. Bishesh Khanal](https://bishesh.github.io/) and [Dr. Binod Bhattarai](https://www.naamii.com.np/teams/binod-bhattarai/).
