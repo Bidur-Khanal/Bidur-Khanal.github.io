@@ -4,7 +4,7 @@ main:
     url: /publications/
     
   - title: "Project"
-    url: /pages/project.md
+    url: /pages/project
     
   - title: "Conferences and Workshops"
     url: /conferences/
