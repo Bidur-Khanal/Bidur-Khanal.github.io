@@ -1,6 +1,5 @@
 ---
-title: ""Label Geometry Aware
-Discriminator for Conditional Generative Networks."
+title: ""Label Geometry Aware Discriminator for Conditional Generative Networks."
 collection: publications
 permalink: /publication/am_gan
 excerpt: 'Suman Sapkota !, **Bidur Khanal** !, Binod Bhattarai, Bishesh Khanal, and Tae-Kyun Kim. **Label Geometry Aware
