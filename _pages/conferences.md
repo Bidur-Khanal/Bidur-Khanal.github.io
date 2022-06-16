@@ -8,8 +8,8 @@ author_profile: true
 ## Presentation ##
 
 - Poster Presentation. **How Does Heterogeneous Label Noise Impact Generalization in Neural Nets?**
-  * *In International Symposium on Visual Computing [Online], 2021
-  * *In IEEE Western NY Signal Processing Workshop, Rochester, NY, 2021
+  * In International Symposium on Visual Computing [Online], 2021
+  * In IEEE Western NY Signal Processing Workshop, Rochester, NY, 2021
 
 
 - Oral Presentation. **Automatic Cobb Angle Detection using Vertebra Detector and Vertebra Corners Regression**.
