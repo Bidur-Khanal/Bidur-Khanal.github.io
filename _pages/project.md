@@ -22,10 +22,14 @@ training of multi-class, multi-task, and multi-label systems. Our results provid
 evidence in support of our hypothesis: label noise only affects the class affected
 by it unless there is transfer.
 
+Advisor: Dr. Christopher Kanan
+
 ## 2. Efficient Online Continual Learning ##
 
 Working on developing efficient online learning classifier that is capable of learning from single pass
 through the dataset while being computationally efficient. For this work, we proposed a large-margin regularized multi-linear discriminant analysis algorithm which can dynamically create and collapse modes observed in the stream of data.
+
+Advisor: Dr. Christopher Kanan
 
 
 ## 3. Label Geometry Aware Discriminator for Conditional Generative Networks ##
@@ -33,6 +37,9 @@ through the dataset while being computationally efficient. For this work, we pro
 <img src="/images/AAM-GAN.png" width="700" height="700"/>
 
 Multi-domain image-to-image translation with conditional Generative Adversarial Networks (GANs) can generate highly photo realistic images with desired target classes, yet these synthetic images have not always been helpful to improve downstream supervised tasks such as image classification. Improving downstream tasks with synthetic examples requires generating images with high fidelity to the unknown conditional distribution of the target class, which many labeled conditional GANs attempt to achieve by adding soft-max cross-entropy loss based auxiliary classifier in the discriminator. As recent studies suggest that the soft-max loss in Euclidean space of deep feature does not leverage their intrinsic angular distribution, we propose to replace this loss in auxiliary classifier with an additive angular margin (AAM) loss that takes benefit of the intrinsic angular distribution, and promotes intra-class compactness and inter-class separation to help generator synthesize high fidelity images. We validate our method on RaFD and CIFAR-100, two challenging face expression and natural image classification data set. Our method outperforms state-of-the-art methods in several different evaluation criteria including recently proposed GAN-train and GAN-test metrics designed to assess the impact of synthetic data on downstream classification task, assessing the usefulness in data augmentation for supervised tasks with prediction accuracy score and average confidence score, and the well known FID metric.
+
+Advisor: Dr. Binod Bhattarai
+
 
 
 ## 4. Spine Curvature Estimation from X-ray Images  ##
@@ -53,6 +60,8 @@ sessed in AASCE MICCAI challenge 2019 which showed a promise with
 a SMAPE score of 25.69 on the challenge test set.
 
 With this work, we participated in **Accurate Automated Spinal Curvature Estimation MICCAI 2019 Challenge**. 
+Advisor: Dr. Bishesh Khanal
+
 
 
 
@@ -61,6 +70,8 @@ With this work, we participated in **Accurate Automated Spinal Curvature Estimat
 <img src="/images/pesticide.png" width="800" height="800"/>
 
 Paper-based analytical devices (PADs) employing colorimetric detection and smartphone images have gained wider acceptance in a variety of measurement applications. PADs are primarily meant to be used in field settings where assay and imaging conditions greatly vary, resulting in less accurate results. Recently, machine-learning (ML)-assisted models have been used in image analysis. We evaluated a combination of four ML models-logistic regression, support vector machine (SVM), random forest, and artificial neural network (ANN)-as well as three image color spaces, RGB, HSV, and LAB, for their ability to accurately predict analyte concentrations. We used images of PADs taken at varying lighting conditions, with different cameras and users for food color and enzyme inhibition assays to create training and test datasets. The prediction accuracy was higher for food color than enzyme inhibition assays in most of the ML models and color space combinations. All models better predicted coarse-level classifications than fine-grained concentration classes. ML models using the sample color along with a reference color increased the models' ability to predict the result in which the reference color may have partially factored out the variation in ambient assay and imaging conditions. The best concentration class prediction accuracy obtained for food color was 0.966 when using the ANN model and LAB color space. The accuracy for enzyme inhibition assay was 0.908 when using the SVM model and LAB color space. Appropriate models and color space combinations can be useful to analyze large numbers of samples on PADs as a powerful low-cost quick field-testing tool.
+
+Advisors: Dr. Bishesh Khanal and Dr. Basant Giri
 
 
 
@@ -71,5 +82,7 @@ Paper-based analytical devices (PADs) employing colorimetric detection and smart
 In this project, we looked into the problem with the conditional GANs in preserving the shape of the imput image. We solved this problem by using two GANs. 
 First GAN trains with unpaired images. The best generated images are distilled using IOU criterion, thus generating good pairs of images. These pairs are then use 
 to train a second GAN network (pix2pixHD). The later network trained with distilled examples learn to preserve the shape of the input.
+
+Advisor: Dr. Basant Giri
 
 
