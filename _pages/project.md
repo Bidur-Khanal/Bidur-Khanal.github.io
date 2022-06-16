@@ -22,37 +22,20 @@ training of multi-class, multi-task, and multi-label systems. Our results provid
 evidence in support of our hypothesis: label noise only affects the class affected
 by it unless there is transfer.
 
-## 1. Efficient Online Continual Learning ##
+## 2. Efficient Online Continual Learning ##
 
-<img src="/images/label_noise.png" width="700" height="700"/>
+Working on developing efficient online learning classifier that is capable of learning from single pass
+through the dataset while being computationally efficient. For this work, we proposed a large-margin regularized multi-linear discriminant analysis algorithm which can dynamically create and collapse modes observed in the stream of data.
 
-Incorrectly labeled examples, or label noise, is common in real-world
-computer vision datasets. While the impact of label noise on learning in deep
-neural networks has been studied in prior work, these studies have exclusively
-focused on homogeneous label noise, i.e., the degree of label noise is the same
-across all categories. However, in the real-world, label noise is often heterogeneous, with some categories being affected to a greater extent than others. Here,
-we address this gap in the literature. We hypothesized that heterogeneous label
-noise would only affect the classes that had label noise unless there was transfer
-from those classes to the classes without label noise. To test this hypothesis, we
-designed a series of computer vision studies using MNIST, CIFAR-10, CIFAR100, and MS-COCO where we imposed heterogeneous label noise during the
-training of multi-class, multi-task, and multi-label systems. Our results provide
-evidence in support of our hypothesis: label noise only affects the class affected
-by it unless there is transfer.
 
-## 1. Label Geometry Aware Discriminator for Conditional Generative Networks ##
-
-<img src="/images/AAM-GAN.png" width="700" height="700"/>
-
-Multi-domain image-to-image translation with conditional Generative Adversarial Networks (GANs) can generate highly photo realistic images with desired target classes, yet these synthetic images have not always been helpful to improve downstream supervised tasks such as image classification. Improving downstream tasks with synthetic examples requires generating images with high fidelity to the unknown conditional distribution of the target class, which many labeled conditional GANs attempt to achieve by adding soft-max cross-entropy loss based auxiliary classifier in the discriminator. As recent studies suggest that the soft-max loss in Euclidean space of deep feature does not leverage their intrinsic angular distribution, we propose to replace this loss in auxiliary classifier with an additive angular margin (AAM) loss that takes benefit of the intrinsic angular distribution, and promotes intra-class compactness and inter-class separation to help generator synthesize high fidelity images. We validate our method on RaFD and CIFAR-100, two challenging face expression and natural image classification data set. Our method outperforms state-of-the-art methods in several different evaluation criteria including recently proposed GAN-train and GAN-test metrics designed to assess the impact of synthetic data on downstream classification task, assessing the usefulness in data augmentation for supervised tasks with prediction accuracy score and average confidence score, and the well known FID metric.
-
-## 1. Label Geometry Aware Discriminator for Conditional Generative Networks ##
+## 3. Label Geometry Aware Discriminator for Conditional Generative Networks ##
 
 <img src="/images/AAM-GAN.png" width="700" height="700"/>
 
 Multi-domain image-to-image translation with conditional Generative Adversarial Networks (GANs) can generate highly photo realistic images with desired target classes, yet these synthetic images have not always been helpful to improve downstream supervised tasks such as image classification. Improving downstream tasks with synthetic examples requires generating images with high fidelity to the unknown conditional distribution of the target class, which many labeled conditional GANs attempt to achieve by adding soft-max cross-entropy loss based auxiliary classifier in the discriminator. As recent studies suggest that the soft-max loss in Euclidean space of deep feature does not leverage their intrinsic angular distribution, we propose to replace this loss in auxiliary classifier with an additive angular margin (AAM) loss that takes benefit of the intrinsic angular distribution, and promotes intra-class compactness and inter-class separation to help generator synthesize high fidelity images. We validate our method on RaFD and CIFAR-100, two challenging face expression and natural image classification data set. Our method outperforms state-of-the-art methods in several different evaluation criteria including recently proposed GAN-train and GAN-test metrics designed to assess the impact of synthetic data on downstream classification task, assessing the usefulness in data augmentation for supervised tasks with prediction accuracy score and average confidence score, and the well known FID metric.
 
 
-## 2. Spine Curvature Estimation from X-ray Images  ##
+## 4. Spine Curvature Estimation from X-ray Images  ##
 
 <img src="/images/spine.png" width="700" height="700"/>
 
@@ -73,7 +56,7 @@ With this work, we participated in **Accurate Automated Spinal Curvature Estimat
 
 
 
-## 3. Estimating Pesticide Concentration with Smartphone  ##
+## 5. Estimating Pesticide Concentration with Smartphone  ##
 
 <img src="/images/pesticide.png" width="800" height="800"/>
 
@@ -81,7 +64,7 @@ Paper-based analytical devices (PADs) employing colorimetric detection and smart
 
 
 
-## 4. Synthetic to Real Domain Translation Using Conditional GAN  ##
+## 6. Synthetic to Real Domain Translation Using Conditional GAN  ##
 
 <img src="/images/gan.png" width="700" height="700"/>
 
