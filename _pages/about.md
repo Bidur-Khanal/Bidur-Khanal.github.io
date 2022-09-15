@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m currently 2nd Year PhD Student at Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology. 
-In general, my research interests include computer vision, machine learning, and deep learning. I am interested to work in problems that have real world applications and require deeper understanding. I worked with Dr. Christopher Kanan at kLab for a year in investigating impact of heterogeneous label noise in neural networks, and developing efficient online continual learning method capable of learning from single pass through the dataset.
+I’m currently 3rd Year PhD Student at Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology. I am working with [Prof. Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) at [Biomedical Modeling, Visualization and Image-guided Navigation Lab (BiMVisIGN)](https://www.rit.edu/kgcoe/biomedical/lintegrp/about). I am working towards reasearch in Medical Image Analysis using Deep learning from Data with Limited Labels or Noisy Labels. 
+
+In general, my research interests include computer vision, deep learning, and medical image analysis. To be specific, I have a strong foundation in imaging systems, active learning, continual learning, label noise in DL and it implications. I am interested to work in problems that have real world applications and generate insightful understanding. I also worked with Dr. Christopher Kanan at kLab for a year in investigating impact of heterogeneous label noise in neural networks, and developing efficient online continual learning method capable of learning from single pass through the dataset.
 
 Before starting my Phd, I worked as a Research Assistant at [NepAl Applied Mathematics and Informatics Institute for Research (NAAMII)](https://www.naamii.com.np/), 
 under the co-supervision of [Dr. Bishesh Khanal](https://bishesh.github.io/) and [Dr. Binod Bhattarai](https://www.naamii.com.np/teams/binod-bhattarai/).
