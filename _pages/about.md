@@ -34,10 +34,10 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 
 [**Oct 2023**] Gave a short talk on my PhD research at PhD Research Showcase, in Industrial Associates Fall 2023 Symposium, Rochester, NY.
 
-[**Jun 2023**] Attended MICCAI, 2023 at Vancouver, Canada to present our work on "Improving medical image classification
+[**Oct 2023**] Attended MICCAI, 2023 at Vancouver, Canada to present our work on "Improving medical image classification
 in noisy labels using only self-supervised pretraining".
 
-[**Jun 2023**] Our paper titled "Improving medical image classification
+[**Jul 2023**] Our paper titled "Improving medical image classification
 in noisy labels using only self-supervised pretraining" got accepted at [Data Engineering in Medical Imaging workshop](https://demi-workshop.github.io/), MICCAI, 2023.
 
 [**Jul 2023**] Presented our work on "M-VAAL: Multimodal variational adversarial active learning for downstream medical image analysis tasks" at MIUA 2023, Aberdeen, United Kingdom.
