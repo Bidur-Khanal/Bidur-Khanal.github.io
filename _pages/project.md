@@ -14,7 +14,7 @@ Noisy labels hurt deep learning-based supervised image classification performanc
 
 ## 2. M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks ##
 
-<img src="/images/mvaal.png" width="700" height="700"/>
+<img src="/images/mvaal.png" width="800" height="800"/>
 
 Acquiring properly annotated data is expensive in the medical field as it requires experts, time-consuming protocols, and rigorous
 validation. Active learning attempts to minimize the need for large annotated samples by actively sampling the most informative examples
@@ -32,7 +32,7 @@ annotations.
 
 ## 3.  Investigating the impact of class-dependent label noise in medical image classification ##
 
-<img src="/images/class_dependent_label_noise.png" width="700" height="700"/>
+<img src="/images/class_dependent_label_noise.png" width="800" height="800"/>
 
 Label noise is inevitable in medical image databases developed for deep learning due to the inter-observer
 variability caused by the different level of expertise of the experts annotating the images, and, in some cases, the
@@ -53,7 +53,7 @@ the model’s performance on other classes for histopathology dataset compared t
 
 ## 4. How Does Heterogeneous Label Noise Impact Generalization in Neural Nets? ##
 
-<img src="/images/label_noise.png" width="700" height="700"/>
+<img src="/images/label_noise.png" width="900" height="900"/>
 
 Incorrectly labeled examples, or label noise, is common in real-world
 computer vision datasets. While the impact of label noise on learning in deep
@@ -77,7 +77,7 @@ through the dataset while being computationally efficient. For this work, we pro
 
 ## 6. Label Geometry Aware Discriminator for Conditional Generative Networks ##
 
-<img src="/images/AAM-GAN.png" width="700" height="700"/>
+<img src="/images/AAM-GAN.png" width="800" height="800"/>
 
 Multi-domain image-to-image translation with conditional Generative Adversarial Networks (GANs) can generate highly photo realistic images with desired target classes, yet these synthetic images have not always been helpful to improve downstream supervised tasks such as image classification. Improving downstream tasks with synthetic examples requires generating images with high fidelity to the unknown conditional distribution of the target class, which many labeled conditional GANs attempt to achieve by adding soft-max cross-entropy loss based auxiliary classifier in the discriminator. As recent studies suggest that the soft-max loss in Euclidean space of deep feature does not leverage their intrinsic angular distribution, we propose to replace this loss in auxiliary classifier with an additive angular margin (AAM) loss that takes benefit of the intrinsic angular distribution, and promotes intra-class compactness and inter-class separation to help generator synthesize high fidelity images. We validate our method on RaFD and CIFAR-100, two challenging face expression and natural image classification data set. Our method outperforms state-of-the-art methods in several different evaluation criteria including recently proposed GAN-train and GAN-test metrics designed to assess the impact of synthetic data on downstream classification task, assessing the usefulness in data augmentation for supervised tasks with prediction accuracy score and average confidence score, and the well known FID metric.
 
@@ -85,7 +85,7 @@ Multi-domain image-to-image translation with conditional Generative Adversarial 
 
 ## 7. Spine Curvature Estimation from X-ray Images  ##
 
-<img src="/images/spine.png" width="700" height="700"/>
+<img src="/images/spine.png" width="800" height="800"/>
 
 Correct evaluation and treatment of Scoliosis require accu-
 rate estimation of spinal curvature. Current gold standard is to manually
@@ -114,7 +114,7 @@ Paper-based analytical devices (PADs) employing colorimetric detection and smart
 
 ## 9. Synthetic to Real Domain Translation Using Conditional GAN  ##
 
-<img src="/images/gan.png" width="700" height="700"/>
+<img src="/images/gan.png" width="800" height="800"/>
 
 In this project, we looked into the problem with the conditional GANs in preserving the shape of the imput image. We solved this problem by using two GANs. 
 First GAN trains with unpaired images. The best generated images are distilled using IOU criterion, thus generating good pairs of images. These pairs are then use 
