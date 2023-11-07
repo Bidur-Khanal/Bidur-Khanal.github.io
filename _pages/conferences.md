@@ -5,7 +5,15 @@ permalink: /conferences/
 author_profile: true
 ---
 
-## Presentation ##
+## Research Presentation ##
+
+- Short Talk. Showcased my PhD research on **Improving Medical Image Classification in Noisy Labels using Self-supervised Pretraining** at Industrial Associates Fall 2023 Symposium, Rochester, NY.
+
+- Poster Presentation. **Improving medical image classification in noisy labels using only self-supervised pretraining** at [Data Engineering in Medical Imaging workshop](https://demi-workshop.github.io/), MICCAI, 2023, Vancouver, Canada.
+
+- Oral Presentation. **M-VAAL: Multimodal variational adversarial active learning for downstream medical image analysis tasks** [Conference on Medical Image Understanding and Analysis (MIUA)](https://www.abdn.ac.uk/events/conferences/miua2023.php) 2023, Aberdeen, UK.
+
+- Poster Presentation. **Investigating the impact of class-dependent label noise in medical image classification** at SPIE, Medical Imaging 2023, San Diego, California, US.
 
 - Poster Presentation. **How Does Heterogeneous Label Noise Impact Generalization in Neural Nets?**
   * In International Symposium on Visual Computing [Online], 2021
@@ -21,7 +29,7 @@ author_profile: true
 
  
   
-## Workshops/Schools ##
+## Programs/Schools ##
 
 - AWARE-AI NSF Research Traineeship (NRT), 2022.
   * A year program targeted at teaching responsible AI research practices and skills through workshops and guidance from advisors. I am a Trainee at AWARE-AI NSF NRT. 

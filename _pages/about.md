@@ -13,7 +13,7 @@ I’m currently a 4th Year PhD Student at the [Chester F. Carlson Center for Ima
 
 ## Research ##
 
-My research focuses on data-driven medical image analysis using deep learning, particularly in scenarios with limited or noisy labeled data. I am interested in addressing the challenge of how to create robust deep learning models/frameworks for tasks like medical image classification and segmentation when the available data has limited labels or contains noisy labels. Therefore, my research encompasses areas such as active learning, learning with noisy labels, active relabeling, self-supervised learning, and continual learning.
+My research focuses on data-driven medical image analysis using deep learning, particularly in scenarios with limited or noisy labeled data. I am interested in solving the challenge of how to create robust deep learning models/frameworks for tasks like medical image classification and segmentation when the available data has limited labels or contains noisy labels. Therefore, my research encompasses areas such as active learning, learning with noisy labels, active relabeling, self-supervised learning, and continual learning.
 
 Through my PhD program, I have also built a strong foundation in Imaging Science, gaining expertise in various areas, including image acquisition, camera design, calibration, image processing, imaging display, human vision, and color science. 
 
@@ -37,14 +37,14 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 [**Jun 2023**] Attended MICCAI, 2023 at Vancouver, Canada to present our work on "Improving medical image classification
 in noisy labels using only self-supervised pretraining".
 
-[**Jun 2023**] Our paper titled "mproving medical image classification
-in noisy labels using only self-supervised pretraining" at Data Engineering in Medical Imaging workshop, MICCAI, 2023.
+[**Jun 2023**] Our paper titled "Improving medical image classification
+in noisy labels using only self-supervised pretraining" got accepted at [Data Engineering in Medical Imaging workshop](https://demi-workshop.github.io/), MICCAI, 2023.
 
 [**Jul 2023**] Presented our work on "M-VAAL: Multimodal variational adversarial active learning for downstream medical image analysis tasks" at MIUA 2023, Aberdeen, United Kingdom.
 
 [**Jun 2023**] Our paper titled "M-VAAL: Multimodal variational adversarial active learning for downstream medical image analysis tasks" got accepted at [Conference on Medical Image Understanding and Analysis (MIUA)](https://www.abdn.ac.uk/events/conferences/miua2023.php) 2023 for Oral presentation.
 
-[**Feb 2023**] Attended [SPIE Medical Imaging]((https://spie.org/conferences-and-exhibitions/medical-imaging/program?SSO=1)) 2023 at San Diego, California, US to present our poster.
+[**Feb 2023**] Attended [SPIE Medical Imaging]((https://spie.org/conferences-and-exhibitions/medical-imaging/program?SSO=1)) 2023 at San Diego, California, US to present our poster on "Investigating the impact of class-dependent label noise in medical image classification".
 
 [**Nov 2022**] Our paper titled "Investigating the impact of class-dependent label noise in medical image classification" got accepted at [SPIE Medical Imaging](https://spie.org/conferences-and-exhibitions/medical-imaging/program?SSO=1) 2023.
 
