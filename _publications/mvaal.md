@@ -2,7 +2,7 @@
 title: "M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks"
 collection: publications
 permalink: /publication/mvaal
-excerpt: '**Bidur Khanal**, Binod Bhattarai, Bishesh Khanal, Danail Stoyanov, and Cristian A. Linte. *"M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks."* Medical Image Understanding and Analysis (MIUA), 2023.'
+excerpt: '**Bidur Khanal**, Binod Bhattarai, Bishesh Khanal, Danail Stoyanov, and Cristian A. Linte. *"M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks."* Medical Image Understanding and Analysis (MIUA), 2023. [Oral Presentation]'
 
 date: 2023-07-21
 venue: 'Medical Image Understanding and Analysis (MIUA)'
