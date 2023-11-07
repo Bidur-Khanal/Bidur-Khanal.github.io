@@ -6,8 +6,11 @@ main:
   - title: "Projects"
     url: /project/
     
-  - title: "Conferences and Workshops"
+  - title: "Presentations/Talks"
     url: /conferences/
+
+  - title: "Involvements"
+    url: /involvements/
     
   - title: "CV"
     url: /files/cv.pdf

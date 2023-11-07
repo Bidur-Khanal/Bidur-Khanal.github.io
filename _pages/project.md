@@ -5,11 +5,34 @@ permalink: /project/
 author_profile: true
 ---
 
-## 1.  Medical Image Segmentation using Active Deep Learning to Efficeintly Sample Images for Annotation and Label Correction ##
+## 1. Improving Medical Image Classification in Noisy Labels Using only Self-supervised Pretraining ##
 
-Working on developing active deep learning pipeline for semantic segmentation that ranks the samples, in a dataset, based on their importance in learning. Only the top ranked samples within a budget are selected for annotation or label correction.
+<img src="/images/improving_medical_image_classification.png" width="700" height="700"/>
 
-## 2.  Investigating the impact of class-dependent label noise in medical image classification ##
+Noisy labels hurt deep learning-based supervised image classification performance as the models may overfit the noise and learn corrupted feature extractors. For natural image classification training with noisy labeled data, model initialization with contrastive self-supervised pretrained weights has shown to reduce feature corruption and improve classification performance. However, no works have explored: i) how other self-supervised approaches, such as pretext task-based pretraining, impact the learning with noisy label, and ii) any self-supervised pretraining methods alone for medical images in noisy label settings. Medical images often feature smaller datasets and subtle inter-class variations, requiring human expertise to ensure correct classification. Thus, it is not clear if the methods improving learning with noisy labels in natural image datasets such as CIFAR would also help with medical images. In this work, we explore contrastive and pretext task-based self-supervised pretraining to initialize the weights of a deep learning classification model for two medical datasets with self-induced noisy labels—NCT-CRC-HE-100K tissue histological images and COVID-QU-Ex chest X-ray images. Our results show that models initialized with pretrained weights obtained from self-supervised learning can effectively learn better features and improve robustness against noisy labels.
+
+
+## 2. M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks ##
+
+<img src="/images/mvaal.png" width="700" height="700"/>
+
+Acquiring properly annotated data is expensive in the medical field as it requires experts, time-consuming protocols, and rigorous
+validation. Active learning attempts to minimize the need for large annotated samples by actively sampling the most informative examples
+for annotation. These examples contribute significantly to improving
+the performance of supervised machine learning models, and thus, active learning can play an essential role in selecting the most appropriate
+information in deep learning-based diagnosis, clinical assessments, and
+treatment planning. Although some existing works have proposed methods for sampling the best examples for annotation in medical image
+analysis, they are not task-agnostic and do not use multimodal auxiliary information in the sampler, which has the potential to increase robustness. Therefore, in this work, we propose a Multimodal Variational
+Adversarial Active Learning (M-VAAL) method that uses auxiliary information from additional modalities to enhance the active sampling.
+We applied our method to two datasets: i) brain tumor segmentation
+and multi-label classification using the BraTS2018 dataset, and ii) chest
+X-ray image classification using the COVID-QU-Ex dataset. Our results
+show a promising direction toward data-efficient learning under limited
+annotations.
+
+## 3.  Investigating the impact of class-dependent label noise in medical image classification ##
+
+<img src="/images/class_dependent_label_noise.png" width="700" height="700"/>
 
 Label noise is inevitable in medical image databases developed for deep learning due to the inter-observer
 variability caused by the different level of expertise of the experts annotating the images, and, in some cases, the
@@ -28,7 +51,7 @@ target organ classes being visually distinct, and a histopathology image classif
 classes look very similar visually. Our results show that the label noise in one class has much higher impact on
 the model’s performance on other classes for histopathology dataset compared to the organ dataset.
 
-## 3. How Does Heterogeneous Label Noise Impact Generalization in Neural Nets? ##
+## 4. How Does Heterogeneous Label Noise Impact Generalization in Neural Nets? ##
 
 <img src="/images/label_noise.png" width="700" height="700"/>
 
@@ -46,13 +69,13 @@ evidence in support of our hypothesis: label noise only affects the class affect
 by it unless there is transfer.
 
 
-## 4. Efficient Online Continual Learning ##
+## 5. Efficient Online Continual Learning ##
 
 Worked on developing efficient online learning classifier that is capable of learning from single pass
 through the dataset while being computationally efficient. For this work, we proposed a large-margin regularized multi-linear discriminant analysis algorithm which can dynamically create and collapse modes observed in the stream of data.
 
 
-## 5. Label Geometry Aware Discriminator for Conditional Generative Networks ##
+## 6. Label Geometry Aware Discriminator for Conditional Generative Networks ##
 
 <img src="/images/AAM-GAN.png" width="700" height="700"/>
 
@@ -60,7 +83,7 @@ Multi-domain image-to-image translation with conditional Generative Adversarial 
 
 
 
-## 6. Spine Curvature Estimation from X-ray Images  ##
+## 7. Spine Curvature Estimation from X-ray Images  ##
 
 <img src="/images/spine.png" width="700" height="700"/>
 
@@ -81,7 +104,7 @@ With this work, we participated in **Accurate Automated Spinal Curvature Estimat
 
 
 
-## 7. Estimating Pesticide Concentration with Smartphone  ##
+## 8. Estimating Pesticide Concentration with Smartphone  ##
 
 <img src="/images/pesticide.png" width="800" height="800"/>
 
@@ -89,7 +112,7 @@ Paper-based analytical devices (PADs) employing colorimetric detection and smart
 
 
 
-## 8. Synthetic to Real Domain Translation Using Conditional GAN  ##
+## 9. Synthetic to Real Domain Translation Using Conditional GAN  ##
 
 <img src="/images/gan.png" width="700" height="700"/>
 

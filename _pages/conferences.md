@@ -29,5 +29,3 @@ author_profile: true
 
  
 
-
-
