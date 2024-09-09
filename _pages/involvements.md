@@ -7,6 +7,10 @@ author_profile: true
 
 ## Reviewer ##
 
+* International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024
+* Data Engineering in Medical Imaging (DEMI), MICCAI 2024
+* AAAI Conference on Artificial Intelligence 2024
+* PLOS ONE Journal 2024
 * International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2023
 * Data Engineering in Medical Imaging (DEMI), MICCAI 2023
 * AAAI Conference on Artificial Intelligence 2023

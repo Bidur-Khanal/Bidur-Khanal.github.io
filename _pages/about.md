@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m currently a 4th Year PhD Student at the [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science), Rochester Institute of Technology. I work with [Prof. Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) at Biomedical Modeling, Visualization and Image-guided Navigation Lab (BiMVisIGN). Before starting my PhD, I worked at [NAAMII](https://www.naamii.org.np/) (a research institute in Nepal), [Zeg.ai](https://www.linkedin.com/company/zeg-ai/about/) (a 3D AI solution startup), and [NDS](https://nepaldigisys.com/) (an embedded systems and IoT startup). I completed my undergraduate in Electronics and Communication Engineering at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/), Nepal. 
+I’m currently a 5th Year PhD Student at the [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science), Rochester Institute of Technology. I work with [Dr. Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) (main advisor) at Biomedical Modeling, Visualization and Image-guided Navigation Lab (BiMVisIGN). I am also co-advised by [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) and [Dr. Bishesh Khanal] (https://www.naamii.org.np/teams/bishesh-khanal/). Before starting my PhD, I worked at [NAAMII](https://www.naamii.org.np/) (a research institute in Nepal), [Zeg.ai](https://www.linkedin.com/company/zeg-ai/about/) (a 3D AI solution startup), and [NDS](https://nepaldigisys.com/) (an embedded systems and IoT startup). I completed my undergraduate in Electronics and Communication Engineering at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/), Nepal. 
 
 
 ## Research ##
@@ -31,6 +31,13 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 
 
 ## News ##
+
+
+[**July 2024**] Presented our paper titled "Investigating the robustness of vision transformers against label noise in medical image classification" at EMBC, 2024 [Oral].
+
+[**July 2024**] Our paper titled "Active Label Refinement for Robust Training of Imbalanced Medical Image Classification Tasks in the Presence of High Label Noise" got accepted at MICCAI, 2024.
+
+[**May 2024**] Joined NVIDIA as Camera Software Quality Intern for summer 3 months.
 
 [**Oct 2023**] Gave a short talk on my PhD research at PhD Research Showcase, in Industrial Associates Fall 2023 Symposium, Rochester, NY.
 
