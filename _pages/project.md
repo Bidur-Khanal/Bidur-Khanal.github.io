@@ -43,7 +43,7 @@ Khanal/imbalanced-medical-active-label-cleaning.git](https://github.com/Bidur-Kh
 
 <img src="/images/label_noise_transformer2.png" width="400" height="400"/> <img src="/images/label_noise_transformer1.png" width="450" height="450"/>
 
- Label noise in medical image classification
+Label noise in medical image classification
 datasets significantly hampers the training of supervised deep
 learning methods, undermining their generalizability. The test
 performance of a model tends to decrease as the label noise
