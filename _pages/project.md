@@ -8,13 +8,13 @@ author_profile: true
 
 ## Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models ##
 
-<img src="/images/hal_aware_annotation.png" width="800" height="800"/>
+<img src="/images/hal_aware_annotation.png" width="900" height="900"/>
 
 Vision-Language Models (VLMs) are becoming increasingly popular in the medical domain, bridging the gap between medical images and clinical language. Existing VLMs demonstrate an impressive ability to comprehend medical images and text queries to generate detailed, descriptive diagnostic medical reports. However, hallucination--the tendency to generate descriptions that are inconsistent with the visual content--remains a significant issue in VLMs, with particularly severe implications in the medical field. To facilitate VLM research on gastrointestinal (GI) image analysis and study hallucination, we curate a multimodal image-text GI dataset: Gut-VLM. This dataset is created using a two-stage pipeline: first, descriptive medical reports of Kvasir-v2 images are generated using ChatGPT, which introduces some hallucinated or incorrect texts. In the second stage, medical experts systematically review these reports, and identify and correct potential inaccuracies to ensure high-quality, clinically reliable annotations. Unlike traditional datasets that contain only descriptive texts, our dataset also features tags identifying hallucinated sentences and their corresponding corrections. A common approach to reducing hallucination in VLM is to finetune the model on a small-scale, problem-specific dataset. However, we take a different strategy using our dataset. Instead of finetuning the VLM solely for generating textual reports, we finetune it to detect and correct hallucinations, an approach we call hallucination-aware finetuning. Our results show that this approach is better than simply finetuning for descriptive report generation. Additionally, we conduct an extensive evaluation of state-of-the-art VLMs across several metrics, establishing a benchmark. 
 
 ## Active Label Refinement for Robust Training of Imbalanced Medical Image Classification Tasks in the Presence of High Label Noise ##
 
-<img src="/images/Active_label_cleaning.png" width="800" height="800"/>
+<img src="/images/Active_label_cleaning.png" width="900" height="900"/>
 
 The robustness of supervised deep learning-based medical
 image classification is significantly undermined by label noise in the
@@ -41,7 +41,7 @@ Khanal/imbalanced-medical-active-label-cleaning.git](https://github.com/Bidur-Kh
 
 ## Investigating the Robustness of Vision Transformers against Label Noise in Medical Image Classification ##
 
-<img src="/images/label_noise_transformer2.png" width="300" height="300"/> <img src="/images/label_noise_transformer1.png" width="300" height="300"/>
+<img src="/images/label_noise_transformer2.png" width="400" height="400"/> <img src="/images/label_noise_transformer1.png" width="500" height="500"/>
 
  Label noise in medical image classification
 datasets significantly hampers the training of supervised deep
@@ -69,7 +69,7 @@ noise in supervised training.
 
 ## Improving Medical Image Classification in Noisy Labels Using only Self-supervised Pretraining ##
 
-<img src="/images/improving_medical_image_classification.png" width="700" height="700"/>
+<img src="/images/improving_medical_image_classification.png" width="800" height="800"/>
 
 Noisy labels hurt deep learning-based supervised image classification performance as the models may overfit the noise and learn corrupted feature extractors. For natural image classification training with noisy labeled data, model initialization with contrastive self-supervised pretrained weights has shown to reduce feature corruption and improve classification performance. However, no works have explored: i) how other self-supervised approaches, such as pretext task-based pretraining, impact the learning with noisy label, and ii) any self-supervised pretraining methods alone for medical images in noisy label settings. Medical images often feature smaller datasets and subtle inter-class variations, requiring human expertise to ensure correct classification. Thus, it is not clear if the methods improving learning with noisy labels in natural image datasets such as CIFAR would also help with medical images. In this work, we explore contrastive and pretext task-based self-supervised pretraining to initialize the weights of a deep learning classification model for two medical datasets with self-induced noisy labels—NCT-CRC-HE-100K tissue histological images and COVID-QU-Ex chest X-ray images. Our results show that models initialized with pretrained weights obtained from self-supervised learning can effectively learn better features and improve robustness against noisy labels.
 
