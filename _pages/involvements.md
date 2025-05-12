@@ -7,6 +7,11 @@ author_profile: true
 
 ## Reviewer ##
 
+* Neural Networks 2025
+* International Conference on Medical Image Computing and Computer Assisted Intervention 2025
+* AAAI Conference on Artificial Intelligence 2025
+* Healthcare Technology Letters 2024 
+* IEEE Transactions on Medical Imaging 2024
 * International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024
 * Data Engineering in Medical Imaging (DEMI), MICCAI 2024
 * AAAI Conference on Artificial Intelligence 2024
@@ -41,9 +46,10 @@ Second Nepal Winter School in AI, Dec 10-20, 2019.
 
 
 ## Personal Developments ##
-- Tiger Tales Toastmasters, Rochester Institute of Technology, Aug 2022 - Present.
-    * Working on improving communication and public speaking as a Toastmasters memeber -  @ Presentation Mastery Pathway, Level 2.
+- Tiger Tales Toastmasters, Rochester Institute of Technology, Aug 2022 - May 2025.
+    * Working on improving communication and public speaking as a Toastmasters memeber -  @ Presentation Mastery Pathway.
     * Sergeant at Arms Role - Responsible for managing logistics at Tiger Tales Toastmasters weekly meetings [May 2023 - Dec 2023]
+    * Treasurer - Responsbile for managing funds at Tiger Tales Toastmasters [Jan 2024 - May 2024]
 
 - Nepalese Student Association, Rochester Institute of Technology
     * First Treasurer [Apr 2020 - Apr 2021]

@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I’m currently a 5th Year PhD Student at the [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science), Rochester Institute of Technology. I work with [Dr. Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) (main advisor) at Biomedical Modeling, Visualization and Image-guided Navigation Lab (BiMVisIGN). I am also co-advised by [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) and [Dr. Bishesh Khanal](https://www.naamii.org.np/teams/bishesh-khanal/). Before starting my PhD, I worked at [NAAMII](https://www.naamii.org.np/) (a research institute in Nepal), [Zeg.ai](https://www.linkedin.com/company/zeg-ai/about/) (a 3D AI solution startup), and [NDS](https://nepaldigisys.com/) (an embedded systems and IoT startup). I completed my undergraduate in Electronics and Communication Engineering at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/), Nepal. 
+I recently completed my PhD in Imaging science at the [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science), Rochester Institute of Technology. I worked with [Dr. Cristian A. Linte](https://www.rit.edu/directory/calbme-cristian-linte) (main advisor) at Biomedical Modeling, Visualization and Image-guided Navigation Lab (BiMVisIGN). I was also co-advised by [Dr. Binod Bhattarai](https://sites.google.com/view/bbinod/home) and [Dr. Bishesh Khanal](https://www.naamii.org.np/teams/bishesh-khanal/). Before starting my PhD, I worked at [NAAMII](https://www.naamii.org.np/) (a research institute in Nepal), [Zeg.ai](https://www.linkedin.com/company/zeg-ai/about/) (a 3D AI solution startup), and [NDS](https://nepaldigisys.com/) (an embedded systems and IoT startup). I completed my undergraduate in Electronics and Communication Engineering at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/), Nepal. 
 
 
 ## Research ##
 
-My research focuses on data-driven medical image analysis using deep learning, particularly in scenarios with limited or noisy labeled data. I am interested in solving the challenge of how to create robust deep learning models/frameworks for tasks like medical image classification and segmentation when the available data has limited labels or contains noisy labels. Therefore, my research encompasses areas such as active learning, learning with noisy labels, active relabeling, self-supervised learning, and continual learning.
+My research focuses on data-driven medical image analysis using deep learning, particularly in scenarios with limited or noisy labeled data. I am interested in addressing the challenge of building robust deep learning models and frameworks for various downstream tasks such as classification, segmentation, image-text retrieval, report generation, and visual question answering. My work encompasses areas such as learning with noisy labels, active learning, active relabeling, self-supervised learning, and vision-language models. Recently, I have become more interested in tackling the hallucination problem in large vision-language models to develop more trustworthy systems.
 
 Through my PhD program, I have also built a strong foundation in Imaging Science, gaining expertise in various areas, including image acquisition, camera design, calibration, image processing, imaging display, human vision, and color science. 
 
@@ -32,6 +32,11 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 
 ## News ##
 
+[June 2025] I am soon joining Nvidia as Camera Software Image Quality Engineer.
+
+[**April 2025**] Successfully defended my PhD "Towards Robust Deep Learning for Medical Imaging with Limited and Noisy Labeled Data" at the Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology.
+
+[**November 2024**] Successfully defended my PhD proposal "Towards Robust Deep Learning for Medical Imaging with Limited and Noisy Labeled Data"
 
 [**July 2024**] Presented our paper titled "Investigating the robustness of vision transformers against label noise in medical image classification" at EMBC, 2024 [Oral].
 
