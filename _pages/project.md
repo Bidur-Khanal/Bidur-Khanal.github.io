@@ -5,14 +5,76 @@ permalink: /project/
 author_profile: true
 ---
 
-## 1. Improving Medical Image Classification in Noisy Labels Using only Self-supervised Pretraining ##
+
+## Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models ##
+
+<img src="/images/hal_aware_annotation.png" width="800" height="800"/>
+
+Vision-Language Models (VLMs) are becoming increasingly popular in the medical domain, bridging the gap between medical images and clinical language. Existing VLMs demonstrate an impressive ability to comprehend medical images and text queries to generate detailed, descriptive diagnostic medical reports. However, hallucination--the tendency to generate descriptions that are inconsistent with the visual content--remains a significant issue in VLMs, with particularly severe implications in the medical field. To facilitate VLM research on gastrointestinal (GI) image analysis and study hallucination, we curate a multimodal image-text GI dataset: Gut-VLM. This dataset is created using a two-stage pipeline: first, descriptive medical reports of Kvasir-v2 images are generated using ChatGPT, which introduces some hallucinated or incorrect texts. In the second stage, medical experts systematically review these reports, and identify and correct potential inaccuracies to ensure high-quality, clinically reliable annotations. Unlike traditional datasets that contain only descriptive texts, our dataset also features tags identifying hallucinated sentences and their corresponding corrections. A common approach to reducing hallucination in VLM is to finetune the model on a small-scale, problem-specific dataset. However, we take a different strategy using our dataset. Instead of finetuning the VLM solely for generating textual reports, we finetune it to detect and correct hallucinations, an approach we call hallucination-aware finetuning. Our results show that this approach is better than simply finetuning for descriptive report generation. Additionally, we conduct an extensive evaluation of state-of-the-art VLMs across several metrics, establishing a benchmark. 
+
+## Active Label Refinement for Robust Training of Imbalanced Medical Image Classification Tasks in the Presence of High Label Noise ##
+
+<img src="/images/Active_label_cleaning.png" width="800" height="800"/>
+
+The robustness of supervised deep learning-based medical
+image classification is significantly undermined by label noise in the
+training data. Although several methods have been proposed to enhance
+classification performance in the presence of noisy labels, they face some
+challenges: 1) a struggle with class-imbalanced datasets, leading to the
+frequent overlooking of minority classes as noisy samples; 2) a singular
+focus on maximizing performance using noisy datasets, without incor-
+porating experts-in-the-loop for actively cleaning the noisy labels. To
+mitigate these challenges, we propose a two-phase approach that com-
+bines Learning with Noisy Labels (LNL) and active learning. This ap-
+proach not only improves the robustness of medical image classification
+in the presence of noisy labels but also iteratively improves the qual-
+ity of the dataset by relabeling the important incorrect labels, under a
+limited annotation budget. Furthermore, we introduce a novel Variance
+of Gradients approach in the LNL phase, which complements the loss-
+based sample selection by also sampling under-represented examples. Us-
+ing two imbalanced noisy medical classification datasets, we demonstrate
+that our proposed technique is superior to its predecessors at handling
+classimbalancebynotmisidentifyingcleansamplesfromminorityclasses
+as mostly noisy samples. Code available at: [Bidur-
+Khanal/imbalanced-medical-active-label-cleaning.git](https://github.com/Bidur-Khanal/imbalanced-medical-active-label-cleaning.git)
+
+
+## Investigating the Robustness of Vision Transformers against Label Noise in Medical Image Classification ##
+
+<img src="/images/label_noise_transformer2.png" width="300" height="300"/> <img src="/images/label_noise_transformer1.png" width="300" height="300"/>
+
+ Label noise in medical image classification
+datasets significantly hampers the training of supervised deep
+learning methods, undermining their generalizability. The test
+performance of a model tends to decrease as the label noise
+rate increases. Over recent years, several methods have been
+proposed to mitigate the impact of label noise in medical image
+classification and enhance the robustness of the model. Predom-
+inantly, these works have employed CNN-based architectures as
+the backbone of their classifiers for feature extraction. However,
+in recent years, Vision Transformer (ViT)-based backbones
+have replaced CNNs, demonstrating improved performance
+and a greater ability to learn more generalizable features,
+especially when the dataset is large. Nevertheless, no prior work
+has rigorously investigated how transformer-based backbones
+handle the impact of label noise in medical image classification.
+In this paper, we investigate the architectural robustness of
+ViT against label noise and compare it to that of CNNs. We
+use two medical image classification datasets—COVID-DU-Ex,
+and NCT-CRC-HE-100K—both corrupted by injecting label
+noise at various rates. Additionally, we show that pretraining
+is crucial for ensuring ViT’s improved robustness against label
+noise in supervised training.
+
+
+## Improving Medical Image Classification in Noisy Labels Using only Self-supervised Pretraining ##
 
 <img src="/images/improving_medical_image_classification.png" width="700" height="700"/>
 
 Noisy labels hurt deep learning-based supervised image classification performance as the models may overfit the noise and learn corrupted feature extractors. For natural image classification training with noisy labeled data, model initialization with contrastive self-supervised pretrained weights has shown to reduce feature corruption and improve classification performance. However, no works have explored: i) how other self-supervised approaches, such as pretext task-based pretraining, impact the learning with noisy label, and ii) any self-supervised pretraining methods alone for medical images in noisy label settings. Medical images often feature smaller datasets and subtle inter-class variations, requiring human expertise to ensure correct classification. Thus, it is not clear if the methods improving learning with noisy labels in natural image datasets such as CIFAR would also help with medical images. In this work, we explore contrastive and pretext task-based self-supervised pretraining to initialize the weights of a deep learning classification model for two medical datasets with self-induced noisy labels—NCT-CRC-HE-100K tissue histological images and COVID-QU-Ex chest X-ray images. Our results show that models initialized with pretrained weights obtained from self-supervised learning can effectively learn better features and improve robustness against noisy labels.
 
 
-## 2. M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks ##
+## M-VAAL: Multimodal Variational Adversarial Active Learning for Downstream Medical Image Analysis Tasks ##
 
 <img src="/images/mvaal.png" width="800" height="800"/>
 
@@ -30,7 +92,7 @@ X-ray image classification using the COVID-QU-Ex dataset. Our results
 show a promising direction toward data-efficient learning under limited
 annotations.
 
-## 3.  Investigating the impact of class-dependent label noise in medical image classification ##
+## Investigating the impact of class-dependent label noise in medical image classification ##
 
 <img src="/images/class_dependent_label_noise.png" width="800" height="800"/>
 
@@ -51,7 +113,7 @@ target organ classes being visually distinct, and a histopathology image classif
 classes look very similar visually. Our results show that the label noise in one class has much higher impact on
 the model’s performance on other classes for histopathology dataset compared to the organ dataset.
 
-## 4. How Does Heterogeneous Label Noise Impact Generalization in Neural Nets? ##
+## How Does Heterogeneous Label Noise Impact Generalization in Neural Nets? ##
 
 <img src="/images/label_noise.png" width="900" height="900"/>
 
@@ -69,13 +131,13 @@ evidence in support of our hypothesis: label noise only affects the class affect
 by it unless there is transfer.
 
 
-## 5. Efficient Online Continual Learning ##
+## Efficient Online Continual Learning ##
 
 Worked on developing efficient online learning classifier that is capable of learning from single pass
 through the dataset while being computationally efficient. For this work, we proposed a large-margin regularized multi-linear discriminant analysis algorithm which can dynamically create and collapse modes observed in the stream of data.
 
 
-## 6. Label Geometry Aware Discriminator for Conditional Generative Networks ##
+## Label Geometry Aware Discriminator for Conditional Generative Networks ##
 
 <img src="/images/AAM-GAN.png" width="800" height="800"/>
 
@@ -83,7 +145,7 @@ Multi-domain image-to-image translation with conditional Generative Adversarial 
 
 
 
-## 7. Spine Curvature Estimation from X-ray Images  ##
+## Spine Curvature Estimation from X-ray Images  ##
 
 <img src="/images/spine.png" width="800" height="800"/>
 
@@ -104,7 +166,7 @@ With this work, we participated in **Accurate Automated Spinal Curvature Estimat
 
 
 
-## 8. Estimating Pesticide Concentration with Smartphone  ##
+## Estimating Pesticide Concentration with Smartphone  ##
 
 <img src="/images/pesticide.png" width="800" height="800"/>
 
@@ -112,7 +174,7 @@ Paper-based analytical devices (PADs) employing colorimetric detection and smart
 
 
 
-## 9. Synthetic to Real Domain Translation Using Conditional GAN  ##
+## Synthetic to Real Domain Translation Using Conditional GAN  ##
 
 <img src="/images/gan.png" width="800" height="800"/>
 
