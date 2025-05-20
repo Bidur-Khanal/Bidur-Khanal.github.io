@@ -34,7 +34,7 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 
 [**June 2025**] I am soon joining Nvidia as Camera Software Image Quality Engineer.
 
-[** May 2025**] Our paper titled "Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models" got early acceptance at MICCAI 2025. (**Ranked among top 9%**)
+[**May 2025**] Our paper titled "Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models" got early acceptance at MICCAI 2025. (**Ranked among top 9%**)
 
 [**April 2025**] Successfully defended my PhD "Towards Robust Deep Learning for Medical Imaging with Limited and Noisy Labeled Data" at the Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology.
 
