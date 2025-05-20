@@ -32,7 +32,9 @@ At Zeg, I worked in computer rendered image to natural image translation, keypoi
 
 ## News ##
 
-[June 2025] I am soon joining Nvidia as Camera Software Image Quality Engineer.
+[**June 2025**] I am soon joining Nvidia as Camera Software Image Quality Engineer.
+
+[** May 2025**] Our paper titled "Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models" got early acceptance at MICCAI 2025. (**Ranked among top 9%**)
 
 [**April 2025**] Successfully defended my PhD "Towards Robust Deep Learning for Medical Imaging with Limited and Noisy Labeled Data" at the Chester F. Carlson Center for Imaging Science, Rochester Institute of Technology.
 
@@ -72,8 +74,8 @@ in noisy labels using only self-supervised pretraining" got accepted at [Data En
 
 [**Aug 2020**] Started PhD in Imaging Science at [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science), Rochester Institute of Technology.
 
-[**Apr 2019**] &ensp; Joined [NepAl Applied Mathematics and Informatics Institute for research (NAAMII)](https://www.naamii.org.np/) to work as Research Assistant.
+[**Apr 2019**] Joined [NepAl Applied Mathematics and Informatics Institute for research (NAAMII)](https://www.naamii.org.np/) to work as Research Assistant.
 
-[**Feb 2018**] &ensp; Started working at [Nepal Digital Systems](https://nepaldigisys.com/) (startup company) as Firmware/Image Processing Engineer.
+[**Feb 2018**] Started working at [Nepal Digital Systems](https://nepaldigisys.com/) (startup company) as Firmware/Image Processing Engineer.
 
-[**Dec 2017**]  &ensp; Completed undergraduate in Electronics and Communication Engineering, at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/),  Nepal.
+[**Dec 2017**] Completed undergraduate in Electronics and Communication Engineering, at [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/),  Nepal.
